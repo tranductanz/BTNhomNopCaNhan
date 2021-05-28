@@ -500,6 +500,9 @@
 
 /* RESPONSIVE */
 @media screen and (max-width: 1200px){
+    *{
+        overflow-y: hidden;
+    }
     .slider .carousel .carousel-item .carousel-caption h1{
         font-size: 50px;
     }
@@ -673,4 +676,6 @@
         z-index: 10;
         color: white;
     }
+
+    
 }
